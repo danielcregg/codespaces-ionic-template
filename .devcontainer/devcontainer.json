@@ -9,5 +9,8 @@
         "ghcr.io/devcontainers-contrib/features/ionic-cli": {
         }
     },
+    "runArgs": [
+        "--user=root"
+    ],
     "postCreateCommand": "npm install -g npm@latest"
 }
