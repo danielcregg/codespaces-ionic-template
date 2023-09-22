@@ -1,16 +1,11 @@
 {
     "name": "Ubuntu and Ionic Latest",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+    "image": "mcr.microsoft.com/devcontainers/base:latest",
 	"features": {
-        "ghcr.io/devcontainers-contrib/features/npm-package": {
-        },
         "ghcr.io/devcontainers-contrib/features/typescript": {
         },
         "ghcr.io/devcontainers-contrib/features/ionic-cli": {
         }
     },
-    "runArgs": [
-        "--user=root"
-    ],
     "postCreateCommand": "npm install -g npm@latest"
 }
